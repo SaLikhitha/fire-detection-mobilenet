@@ -1,0 +1,37 @@
+
+# Virtual environment
+venv/
+ENV/
+env/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Model weights and large files
+*.weights
+*.h5
+*.ckpt
+
+# Logs and datasets
+*.log
+*.csv
+*.tsv
+*.sqlite
+*.db
+*.zip
+*.tar
+*.tar.gz
+*.npz
+*.npy
+dataset/
+pics/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# OS specific
+.DS_Store
+Thumbs.db
